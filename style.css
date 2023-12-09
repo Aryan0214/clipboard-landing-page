@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primry-strng-cyan: hsl(171, 66%, 44%);
+    --primry-light-blue: hsl(233, 100%, 69%);
+    --neutrl-drk-grayish-blue: hsl(210, 10%, 33%);
+    --neutrl-grayish-blue: hsl(201, 11%, 66%);
+    --ff-bai-jumerjee: 'Bai Jamjuree', sans-serif;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    font-family: var(--ff-bai-jumerjee);
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    color: var(--neutrl-drk-grayish-blue);
+}
+p{
+    color: var(--neutrl-grayish-blue);
+}
+span{
+    color: var(--neutrl-drk-grayish-blue);
+    font-weight: 600;
+}
+header{
+    background-image: url(images/bg-header-desktop.png), linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 5em 0;
+}
+header img{
+    width: 70px;
+    height: 70px;
+    top: 60%;
+}
+.small-container{
+    width: 700px;
+    margin-left: 300px;
+    text-align: center;
+    padding: 20px 60px;
+}
+.para{
+    line-height: 1em;
+}
+.para h1{
+    font-size: 35px;
+} 
+.para p{
+ margin-top: 30px;
+ font-size: 15px;
+ color: var(--neutrl-grayish-blue);
+}
+.start{
+    margin-top: -40px;
+}
+.downld-btns{
+    margin-top: 25px;
+}
+.ios-btn{
+    padding: 10px 20px;
+    background-color: var(--primry-strng-cyan);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.mac-btn{
+    padding: 10px 20px;
+    background-color: var(--primry-light-blue);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.section-1{
+    margin-top: 50px;
+}
+.para-2 p{
+    line-height: 25px;
+    margin-top: 20px;
+}
+.computer{
+    display: flex;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 30px;
+    gap: 4rem;
+}
+.comp-img img{
+    width: 100%;
+}
+.comp-data{
+    line-height: 1.5rem;
+    margin-top: 30px;
+}
+.comp-data h3, h4, h5{
+    font-size: 18px;
+}
+.comp-data .sync{
+    margin-top: 40px;
+}
+.comp-data .history{
+    margin-top: 40px;
+}
+.device-container{
+    width: 700px;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+.device-container .access{
+    text-align: center;
+}
+.access h6{
+    font-size: 21px;
+}
+.access p{
+    margin-top: 20px;
+}
+.device-img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.device-img img{
+    width: 100%;
+}
+.workflow{
+    width: 700px;
+    margin-left: 300px;
+    text-align: center;
+}
+.workflow span{
+    font-size: 27px;
+}
+.workflow p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.bigflex-group{
+    display: flex;
+    width: 1000px;
+    margin-left: 110px;
+    margin-top: 40px;
+    text-align: center;
+    gap: 4rem;
+}
+.blacklists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.plain-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.sneak-preview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.icons{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.brand-icons{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+}
+.brand-icons img{
+    width: 120px;
+}
+.final{
+    max-width: 700px;
+    margin-left: 300px;
+    text-align: center;
+    margin-top: 80px;
+}
+.final span{
+    font-size: 27px;
+}
+.final p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.smallflex-grp{
+    margin-top: 30px;
+}
+.ios-endbtn{
+    padding: 10px 20px;
+    background-color: var(--primry-strng-cyan);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.mac-endbtn{
+    padding: 10px 20px;
+    background-color: var(--primry-light-blue);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+    /* footer styling */
+footer {
+    max-width: 1440px;
+    background-color: var(--neutrl-grayish-blue);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.clipboard-foot{
+    display: flex;
+    gap: 7rem;
+    padding: 20px 90px;
+    margin-top: 90px;
+}
+.foot-info{
+    display: flex;
+    gap: 7rem;
+    line-height: 2rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.privacy{
+    display: flex;
+    flex-direction: column;
+}
+.foot-img img{
+    width: 40px;
+    margin-top: 10px;
+}
+.foot-info a{
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--neutrl-drk-grayish-blue);
+}
+.social-icons{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.social-icons img{
+    width: 18px;
+    margin-left: 10px;
+}
+  /* active stats */
+.ios-btn:hover{
+    opacity: 0.7;
+}
+.ios-endbtn:hover{
+    opacity: 0.7;
+}
+.mac-btn:hover{
+    opacity: 0.7;
+}
+.mac-endbtn:hover{
+    opacity: 0.7;
+}
+.foot-info a:hover{
+    color: var(--primry-strng-cyan);
+}
+.social-icons img:hover{
+    background-color: var(--primry-strng-cyan);
+}  
+
+    /* For mobile-devices */
+@media only screen and (max-width: 375px){
+    body{
+        max-width: 375px;
+        margin: auto;
+    }
+    header{
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        padding: 4em 0;
+    }
+    header img{
+        height: 100px;
+        width: 100px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .small-container{
+        width: 375px;
+        margin-left: 2%;
+    }
+    .para h1{
+        font-size: 23px;
+    }
+    .para p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .para{
+        line-height: 1.5rem;
+    }
+    .downld-btns .ios-btn{
+       padding: 13px 70px;  
+       margin-top: 10px;
+    }   
+    .downld-btns .mac-btn{
+        padding: 13px 60px;  
+        margin-top: 15px;
+     }   
+      /* section-1 styles */
+    .para-2 p{
+        font-size: 13px;
+       margin-top: 10px;
+    }
+    .computer{ 
+     display: flex;
+     flex-direction: column;
+     width: 375px;
+     margin-left: 70px;
+     margin-top: 30px;
+     gap: 1rem;
+    }
+    .comp-img{
+        width: 70%;
+    }
+    .comp-data{
+        text-align: center;
+        margin-right: 120px;
+    }
+    .comp-data p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .comp-data h3, h4, h5{
+        font-size: 21px;
+    }
+      /* section-2 styling */
+    .device-container{
+        width: 340px;
+        margin-left: 20px;
+    }
+    .device-container .access{
+        text-align: center;
+    }
+    .access p{
+        font-size: 17px;
+    }
+    .access h6{
+        font-size: 21px;
+    }
+    .device-img{
+        margin-right: 30px;
+    }
+    .workflow{
+        width: 340px;
+        margin-right: 400px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    .workflow p{
+        width: 320px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .workflow span{
+        font-size: 25px;
+    }
+    .bigflex-group{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 320px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    .brand-icons{
+        display: flex;
+        flex-direction: column;
+        margin-right: 90px;
+        margin-top: 120px;
+        gap: 4rem;
+    }
+    .final{
+        width: 345px;
+        margin-left: 2%;
+        padding: 10px;
+    }
+    .content p{
+        font-size: 17px;
+    }
+    .smallflex-grp{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .ios-endbtn{
+        padding: 13px 60px; 
+    }
+    .mac-endbtn{
+        padding: 13px 60px; 
+    }
+     /* footer styles  */
+     footer{
+        max-width: 375px;
+     }
+     .clipboard-foot{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 4px;
+        align-items: center;
+        text-align: center;
+     }
+     .foot-info{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+     }
+     .social-icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:1.4rem;
+        margin-left: 2%;
+        margin-top: 20px;
+        padding-bottom: 30px;
+     }
+}
